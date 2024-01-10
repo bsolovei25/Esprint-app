@@ -1,0 +1,96 @@
+:root {
+  --color__main: #242526;
+  --color__main_RGB: 36, 37, 38;
+  --color__main--shade1: #4a4b4c;
+  --color__main--shade2: #737475;
+  --color__main--shade3: #9fa0a1;
+  --color__main--shade3_RGB: 159, 160, 161;
+  --color__main--shade4: #cdcfd0;
+  --color__main--twitter-shade: rgba(0, 0, 0, 0.04);
+  --color__main--shade4_RGB: 205, 207, 208;
+  --color__header--shadow: #0000001a;
+  --color__main--disabled: #ccc;
+  --color__nav-items: #6e6e89;
+  --color__file-box--bg: #f5f9ff;
+
+  --color__secondary: #38aeaa;
+  --color__secondary_RGB: 56, 174, 170;
+  --color__secondary--shade1: #008b88;
+  --color__secondary--shade1_RGB: 0, 139, 136;
+  --color__secondary--shade2: #006a67;
+  --color__secondary--shade2_RGB: 0, 106, 103;
+  --color__secondary--shade3: #004a48;
+  --color__secondary--shade4: #002c2b;
+  --color__secondary--shade4_RGB: 0, 44, 43;
+  --color__spinned--checked: #31edb9;
+
+  --color__page--bg: #fafafa;
+  --color__login--bg:  #F1F1F2;
+  --color__deafault--white: #ffffff;
+  --color__filter--border: #e8eaf1;
+  --color__filter--text: #5e5eaf;
+  --color__box--shadow: #23232329;
+  --color__file--shadow: rgba(0,0,0,0.2);
+  --color__file-box--bg: #f5f9ff;
+
+  --color__btn--alert: #b81414;
+  --color__btn--alert1: #e01a1a;
+  --color__snackbar__background--warning: #ffbca7;
+  --color__snackbar__border--warning: #ff3c00;
+  --color__delete--button: #e81123;
+  --color__controls-container--background: #eff4fe;
+  --color__controls__uneditable: rgb(102, 102, 102);
+  --color__selector--border: #1d1d25;
+
+  --color__text: #ffffff;
+  --color__text--secondary: #242526;
+  --color__text--secondary_RGB: 36, 37, 37;
+
+  --color__gradient--bg: linear-gradient(
+          90deg,
+          var(--color__main--shade1) 0%,
+          var(--color__main) 100%
+  );
+  --color__gradient--bg-reversed: linear-gradient(
+          -90deg,
+          var(--color__main--shade1) 0%,
+          var(--color__main) 100%
+  );
+  --color__post--button: #1d9bf0;
+  --color__post--button-hover: #1a8cd8;
+  --color__post--button-disabled: #1d9bf080;
+
+  --color__gradient-message-item--bg: linear-gradient(50deg, #0f0f48, #53548b);
+
+  --color__input--border: #d3d3d9;
+  --color__table-list__border: #eff4fe;
+  --color__messages-list__border: #c7cad7;
+  --color__bot-reply__border: #1d1d25;
+  --color__bot-reply__bg: #f5f9ff;
+
+  --color__main--white: #ffffff;
+  --color__setting--tabs: #efefef;
+  --color__setting--tabs-admin-color-bg: #f59184;
+  --color__setting--tabs-admin-color: #d82e17;
+  --color__setting--tabs-manager-color-bg: #f5e484;
+  --color__setting--tabs-manager-color: #9b8b04;
+  --color__setting--tabs-observer-color-bg: #84f5d9;
+  --color__setting--tabs-observer-color: #049b7d;
+  --color__setting--tabs-trader-color-bg: #84a4f5;
+  --color__setting--tabs-trader-color: #1b08d8;
+
+  --color__main--informational: #e0e9e8;
+  --color__filter--operator: #686783;
+  --color__filter--operator-hover: #454262;
+
+  --color-primary-button-terranoha: #2a9ebc;
+  --color-hover-primary-button-terranoha: #25849c;
+  --color-primary-violet-terranoha: #53548b;
+  --color-primary-dark-violet-terranoha: #484978;
+  --color-primary-gray-terranoha: #8b9bac;
+
+}
+
+.virsec {
+  --color__gradient--bg: linear-gradient(90deg, blue 0%, blueviolet 100%);
+}

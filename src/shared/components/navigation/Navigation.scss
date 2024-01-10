@@ -1,0 +1,43 @@
+@import '../../themes/themes-colors';
+.left-sidebar {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  .logo-area {
+    &__icon {
+      width: 52px;
+      height: 56px;
+    }
+  }
+  &__icons-box {
+
+    &__home, &__search, &__user, &__bell, &__envelope, &__list, &__bookmark, &__communities {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 10px;
+      &__caption {
+        padding: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI";
+      }
+      &__icon {
+        padding: 10px;
+        font-size: 1.6em;
+        min-width: 30px;
+      }
+
+      &:hover {
+        border-radius: 1.5rem;
+        background-color: var(--color__main--twitter-shade);
+        transition: transform 0.3s ease !important;
+      }
+    }
+  }
+}
+
+.MuiButtonBase-root:hover {
+  background-color: transparent!important;
+}
