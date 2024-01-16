@@ -5,6 +5,7 @@ import Navigation from "./shared/components/navigation/Navigation";
 import '././shared/styles/tailwind.css';
 import TrendsSidebar from "./core/TrendsSidebar/TrendsSidebar";
 import './App.scss'
+import UserProfile from "./core/UserProfile/UserProfile";
 
 function App() {
     const [contentHover, setContentHover] = useState(false);
@@ -33,12 +34,13 @@ function App() {
       <div className="flex main-page-layout flex justify-end h-screen flex-row bg-white relative">
         <BrowserRouter>
           <div className="navigation-module flex justify-end relative overflow-hidden h-screen basis-1/3">
-            <Navigation></Navigation>
+            <Navigation/>
           </div>
             <div className="basis-1/2 overflow-y-auto h-full middle-section border-grey-background">
               <Routes>
                 <Route path="/" element={<Navigate to="/home" />} />
                 <Route path="/home" element={<Home />} />
+                  <Route path="/:userReference/*" element={<UserProfile />} />
               </Routes>
             </div>
             <div className="basis-1/3 overflow-y-auto h-full"
@@ -46,7 +48,7 @@ function App() {
                  onMouseEnter={ () => { setContentHover(true) }}
                  onMouseLeave={ () => { setContentHover(false) }}
             >
-                <TrendsSidebar></TrendsSidebar>
+                <TrendsSidebar/>
             </div>
         </BrowserRouter>
       </div>

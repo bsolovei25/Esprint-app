@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        '38': '150px',
+      },
       colors: {
         'post-blue': 'rgb(29, 155, 240)',
         'post-hover-blue': 'rgb(26,140,216,1)',
@@ -16,10 +19,13 @@ module.exports = {
         'trends-categories': 'rgb(83, 100, 113)',
         'trends-name': 'rgb(15, 20, 25)',
         'transperent-white': 'rgba(255,255,255)',
+        'profile-header': 'rgba(255,255,255,0.85)',
+        'profile-default-bg': 'rgba(207, 217, 222, 1.00)',
         'red-unfollow':'rgb(244,33,46)',
         'pink-unfollow':'rgb(253,201,206)',
         'follow-hover': 'rgba(39,44,48,1)',
         'default-white': '#ffffff',
+        'description-info' : 'rgba(83,100,113,1.00)'
       },
     },
   },
